@@ -79,7 +79,7 @@ const leadership = {
     "As an entrepreneur and software development manager, I've led transformative projects, founded successful ventures, and achieved exceptional results. Explore my journey and the impactful solutions I've delivered.",
   images: [
     { 
-      img: require("../editable-stuff/Dexance.webp"), 
+      img: require("../editable-stuff/dex.jpeg"), 
       label: "Decentralize Exchange", 
       paragraph: "For crypto currency on multichains " 
     },
