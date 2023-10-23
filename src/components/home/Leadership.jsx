@@ -5,7 +5,7 @@ import { Jumbotron } from "./migration";
 const Leadership = ({ heading, message, img, imageSize }) => {
   return (
     <Jumbotron
-      id="leadership"
+      id="projects"
       className="m-0"
       style={{ backgroundColor: "white" }}
     >
@@ -26,7 +26,7 @@ const Leadership = ({ heading, message, img, imageSize }) => {
                     width={imageSize.width}
                     height={imageSize.height}
                   />
-                  <Carousel.Caption>
+                  <Carousel.Caption style={{background: "black"}}>
                     <h3>{value.label}</h3>
                     <p>
                       {value.paragraph}

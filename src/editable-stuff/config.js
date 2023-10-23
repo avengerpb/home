@@ -64,7 +64,7 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Recent Projects",
   gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
   reposLength: 4,
@@ -73,20 +73,35 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: false,
-  heading: "Leadership",
+  show: true,
+  heading: "Projects",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "As an entrepreneur and software development manager, I've led transformative projects, founded successful ventures, and achieved exceptional results. Explore my journey and the impactful solutions I've delivered.",
   images: [
     { 
-      img: require("../editable-stuff/dat-le.jpg"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../editable-stuff/Dexance.webp"), 
+      label: "Decentralize Exchange", 
+      paragraph: "For crypto currency on multichains " 
+    },
+    { 
+      img: require("../editable-stuff/taskon.png"), 
+      label: "Engagement platform", 
+      paragraph: "Rewarding users for level of engagement" 
+    },
+    { 
+      img: require("../editable-stuff/vTag.webp"), 
+      label: "GPS/LTE Tracker ", 
+      paragraph: "Connecting to an IoT platform" 
+    },
+    { 
+      img: require("../editable-stuff/real-estate.jpg"), 
+      label: "Real Estate analysing platform", 
+      paragraph: "Predicting and following theirs price using AI/Bigdata" 
     },
     { 
       img: require("../editable-stuff/dat-le.jpg"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      label: "And more", 
+      paragraph: "Contact me for more details" 
     },
   ],
   imageSize: {
@@ -100,24 +115,29 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Blockchain", value: 90 },
+    { name: "Internet Of Things", value: 80 },
+    { name: "E-Commerce", value: 70 },
+    { name: "Big Data", value: 70 },
+    { name: "Artificial Intelligence", value: 70 },
+    { name: "Software development life cycle", value: 70 },
+    { name: "Agile Methodology", value: 90 },
+    // { name: "JavaScript", value: 90 },
+    // { name: "React", value: 65 },
+    // { name: "HTML/CSS", value: 55 },
+    // { name: "C#", value: 80 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
+    { name: "Leadership", value: 80 },
+    { name: "Adaptability", value: 80 },
+    { name: "Problem Solving", value: 80 },
+    // { name: "Empathy", value: 90 },
     { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Creativity", value: 70 },
+    { name: "Vietnamese", value: 100 },
+    { name: "English", value: 80 },
+    { name: "French", value: 60 },
+    { name: "Chinese", value: 50 },
   ],
 };
 
@@ -131,25 +151,35 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Project Manager / Consultants',// Here Add Company Name
+      companylogo: require('../assets/img/vam.png'),
+      date: 'Feb 2023 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'CEO / Founder',
+      companylogo: require('../assets/img/payb-1.png'),
+      date: 'May 2021 – Feb 2023',
+    },
+    {
+      role: 'Business Analyst / Project Coordinator',
+      companylogo: require('../assets/img/vht.png'),
+      date: 'May 2019 – May 2021',
+    },
+    {
+      role: 'Intern Researcher',
+      companylogo: require('../assets/img/IRRI.png'),
+      date: 'May 2018 – May 2019',
     },
   ]
 }
 
 // Blog SECTION
 // const blog = {
-//   show: false,
+//   show: true,
 // };
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
