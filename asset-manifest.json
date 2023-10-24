@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "./static/css/main.fe927caf.css",
-    "main.js": "./static/js/main.2c094b09.js",
-    "static/js/787.4b24f717.chunk.js": "./static/js/787.4b24f717.chunk.js",
-    "static/media/taskon.png": "./static/media/taskon.f8fceaf369701e67dd31.png",
-    "static/media/dat-le.jpg": "./static/media/dat-le.a1853d3af1574c49065d.jpg",
-    "static/media/real-estate.jpg": "./static/media/real-estate.91d130641d8ceab6b241.jpg",
-    "static/media/vTag.webp": "./static/media/vTag.ab8d8e152e2a1a009ac0.webp",
-    "static/media/resume.pdf": "./static/media/resume.4a781b4cd34ea0a68b04.pdf",
-    "static/media/vht.png": "./static/media/vht.33d8574e17af86389619.png",
-    "static/media/dex.jpeg": "./static/media/dex.68b1b15c5aa4dcceebd1.jpeg",
-    "static/media/IRRI.png": "./static/media/IRRI.7aa7e5878e755b4d113e.png",
-    "static/media/payb-1.png": "./static/media/payb-1.f7405de6f8d2995577db.png",
-    "static/media/vam.png": "./static/media/vam.b14df6fc11239bdc5c70.png",
-    "index.html": "./index.html",
-    "main.fe927caf.css.map": "./static/css/main.fe927caf.css.map",
-    "main.2c094b09.js.map": "./static/js/main.2c094b09.js.map",
-    "787.4b24f717.chunk.js.map": "./static/js/787.4b24f717.chunk.js.map"
+    "main.css": "/static/css/main.fe927caf.css",
+    "main.js": "/static/js/main.3f8620da.js",
+    "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
+    "static/media/taskon.png": "/static/media/taskon.f8fceaf369701e67dd31.png",
+    "static/media/dat-le.jpg": "/static/media/dat-le.a1853d3af1574c49065d.jpg",
+    "static/media/real-estate.jpg": "/static/media/real-estate.91d130641d8ceab6b241.jpg",
+    "static/media/vTag.webp": "/static/media/vTag.ab8d8e152e2a1a009ac0.webp",
+    "static/media/resume.pdf": "/static/media/resume.4a781b4cd34ea0a68b04.pdf",
+    "static/media/vht.png": "/static/media/vht.33d8574e17af86389619.png",
+    "static/media/dex.jpeg": "/static/media/dex.68b1b15c5aa4dcceebd1.jpeg",
+    "static/media/IRRI.png": "/static/media/IRRI.7aa7e5878e755b4d113e.png",
+    "static/media/payb-1.png": "/static/media/payb-1.f7405de6f8d2995577db.png",
+    "static/media/vam.png": "/static/media/vam.b14df6fc11239bdc5c70.png",
+    "index.html": "/index.html",
+    "main.fe927caf.css.map": "/static/css/main.fe927caf.css.map",
+    "main.3f8620da.js.map": "/static/js/main.3f8620da.js.map",
+    "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe927caf.css",
-    "static/js/main.2c094b09.js"
+    "static/js/main.3f8620da.js"
   ]
 }
